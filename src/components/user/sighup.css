@@ -1,0 +1,95 @@
+.sighin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px; /* center the container */
+    margin: 0 auto; /* center the container */
+  }
+  
+  .Icon {
+    margin-top: 200px;
+    margin-left: 0px;
+  }
+  
+  .text h2 {
+    font-size: 55px;
+  }
+  
+  .sighin {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sighin input {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    max-width: 600px; /* increase input width for larger screens */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .sighin button {
+    padding: 10px 20px;
+    color: white;
+    background-color: #007BFF; /* Bootstrap primary color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 600px; /* increase button width for larger screens */
+  }
+  
+  .sighin button:hover {
+    background-color: #0056b3; /* darker blue */
+  }
+  
+
+@media (max-width: 391px) {
+    .sighin {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .Icon {
+        margin-top: 200px;
+ 
+        margin-left: 0px;
+    }
+    .text h2 {
+      font-size: 55px;
+    }
+    .sighin {
+      margin-top: 0px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .sighin input {
+      margin-bottom: 10px;
+      padding: 10px;
+      width: 100%;
+      max-width: 300px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+    .sighin button {
+      padding: 10px 20px;
+      color: white;
+      background-color: #007BFF; /* Bootstrap primary color */
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 100%;
+      max-width: 300px;
+    }
+    .sighin button:hover {
+      background-color: #0056b3; /* darker blue */
+    }
+}
