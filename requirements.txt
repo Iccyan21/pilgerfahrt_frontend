@@ -1,0 +1,11 @@
+npm install react-router-dom 
+
+npm install google-map-react  
+
+npm install react-icons  
+
+npm install axios  
+
+npm install @types/google-map-react   
+
+npm install @types/googlemaps
