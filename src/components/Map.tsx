@@ -286,7 +286,7 @@ const MapComponent: React.FC = () => {
 
       <div style={{ height: "780px", width: "100%" }}>
         <GoogleMapReact
-          bootstrapURLKeys={{ key: "" }} // TODO: 自分のAPIキーを指定
+          bootstrapURLKeys={{ key: "AIzaSyANo-MndvZ0THsRxGEaTBHUfRCUXLv3w2g" }} // TODO: 自分のAPIキーを指定
           defaultCenter={{ lat: 35.6794397, lng: 139.7663463 }}
           defaultZoom={15}
           yesIWantToUseGoogleMapApiInternals
